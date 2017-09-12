@@ -1,0 +1,171 @@
+.hover-ba-ease-in-hv1 {
+  &:hover {
+    &:before {
+      right: 50%;
+      left: 50%;
+      width: 0;
+      background: rgba(255, 255, 255, 0.3)
+    }
+    &:after {
+        height: 0;
+        top: 50%;
+        bottom: 50%;
+        background: rgba(255, 255, 255, 0.3)
+    }
+  }
+}
+
+.hover-ba-ease-in-hv1:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.hover-ba-ease-in-hv1:after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+//....
+.hover-ba-ease-in-hv2:hover:before, .hover-ba-ease-in-hv2:hover:after{
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.hover-ba-ease-ins{
+  position: relative;
+  overflow: hidden;
+}
+.hover-ba-ease-in-hv2:after{
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  top: 30px;
+  right: 50px;
+  bottom: 30px;
+  left: 50px;
+  -webkit-transform: scale(1, 0);
+  -ms-transform: scale(1, 0);
+  -o-transform: scale(1, 0);
+  transform: scale(1, 0);
+  position: absolute;
+  content: '';
+  display: block;
+  -webkit-transition: opacity .4s ease, transform .4s ease;
+  -o-transition: opacity .4s ease, transform .4s ease;
+  transition: opacity .4s ease, transform .4s ease;
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.hover-ba-ease-in-hv2:before{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  top: 50px;
+  right: 30px;
+  bottom: 50px;
+  left: 30px;
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -o-transform: scale(0, 1);
+  transform: scale(0, 1);
+  position: absolute;
+  content: '';
+  display: block;
+  -webkit-transition: opacity .4s ease, transform .4s ease;
+  -o-transition: opacity .4s ease, transform .4s ease;
+  transition: opacity .4s ease, transform .4s ease;
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+//..
+.box-hv1 {
+  background-image: url("http://static.vpage.vn/uploads/2017/09/05/2017_09_05___1504599820___695fc53de6553ea7bd247309af17d675.jpg");
+  height: 400px;
+  padding: 0px;
+  border-right: 10px solid white; }
+.items-hv1:hover {
+  opacity: 1;
+  transition: 0.3s;
+  background-image: url(http://static.vpage.vn/uploads/2017/09/07/2017_09_07___1504777061___e10c66813a4604e670f586106c78a03b.png);
+  background-position: center;
+  background-repeat: no-repeat;}
+//...
+.box-hv2 {
+  background-image: url("http://static.vpage.vn/uploads/2017/09/08/2017_09_08___1504803947___fe84497c35b14e1ab563b5ae4ea699bc.png");
+  height: 400px;
+  padding: 0px;
+  border-right: 10px solid white;
+  padding: 10px; }
+.items-hv2 {
+  border: 1px solid silver;
+  background: rgba(149, 20, 150, 0.48);
+  opacity: 0;
+  font-size: 18px;
+  color: rgba(251, 183, 78, 0.87);
+  height: 380px;
+  padding-top: 140px;
+  text-align: left;
+  padding-left: 10px;
+  margin: 0px;
+  transition: 0.5s; }
+.items-hv2:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer; }
+//...
+.hover-ba-ease-in-hv3:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
+.hover-ba-ease-in-hv3:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
+.hover-ba-ease-in-hv3:hover:before, .hover-ba-ease-in-hv3focus:before {
+  right: 50%;
+  left: 50%;
+  width: 0;
+  background: rgba(255, 255, 255, 0.3); }
+.hover-ba-ease-in-hv3:hover:after, .hover-ba-ease-in-hv3focus:after {
+  height: 0;
+  top: 50%;
+  bottom: 50%;
+  background: rgba(255, 255, 255, 0.3); }
